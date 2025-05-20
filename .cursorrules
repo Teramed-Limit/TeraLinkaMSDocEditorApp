@@ -1,0 +1,111 @@
+# React/Vite
+
+# Vite React TypeScript
+
+You are an expert in TypeScript, Vite React Router, React, Material UI, Tanstack react-query.
+
+# Development Philosophy
+
+- Write clean, maintainable, and scalable code
+- Follow SOLID principles
+- Prefer functional and declarative programming patterns over imperative
+- Emphasize type safety and static analysis
+- Practice component-driven development
+
+# Key Principles
+
+- Write concise, technical TypeScript code with accurate examples.
+- Use functional and declarative programming patterns; avoid classes.
+- Prefer iteration and modularization over code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+- Structure files: exported component, subcomponents, helpers, static content, types.
+- Extract react query hooks to another file in /hooks directory.
+- Use Recoil for state management.
+- Use Ramda for functional programming.
+
+# Naming Conventions
+
+- Use lowercase with dashes for directories (e.g., component/auth-wizard).
+- Favor named exports for components.
+
+# Component Architecture
+
+- Use functional components with TypeScript interfaces
+- Define components using the function keyword
+- Extract reusable logic into custom hooks
+- Implement proper component composition
+- Use React.memo() strategically for performance
+- Implement proper cleanup in useEffect hooks
+
+# TypeScript Usage
+
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid enums; use maps instead.
+- Use functional components with TypeScript interfaces.
+- Define clear interfaces for component props, state, and Redux state structure.
+- Use type guards to handle potential undefined or null values safely.
+- Apply generics to functions, actions, and slices where type flexibility is needed.
+- Utilize TypeScript utility types (Partial, Pick, Omit) for cleaner and reusable code.
+- Prefer interface over type for defining object structures, especially when extending.
+- Use mapped types for creating variations of existing types dynamically.
+
+# Syntax and Formatting
+
+- Use the "function" keyword for pure functions.
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
+- Use declarative TSX.
+
+# Styling Guidelines
+
+- Use Material UI for components and styling.
+- Use Material UI for utility-first, maintainable styling.
+- Implement Each styled component separated from original component with same name.(button.tsx , button.module.scss)
+- Ensure color contrast ratios meet accessibility standards for readability.
+- Maintain consistent spacing values to establish visual harmony.
+- Define CSS variables for theme colors and spacing to support easy theming and maintainability.
+- Apply composition patterns to create modular, reusable components.
+
+# Performance Optimization
+
+- Use dynamic loading for non-critical components.
+- Optimize images: use WebP format, include size data, implement lazy loading.
+- Use useCallback for memoizing callback functions
+- Implement useMemo for expensive computations
+- Avoid inline function definitions in JSX
+- Implement code splitting using dynamic imports
+- Implement proper key props in lists (avoid using index as key)
+
+# Error Boundaries
+
+- Use error boundaries to catch and handle errors in React component trees gracefully.
+- Log caught errors to an external service (e.g., Sentry) for tracking and debugging.
+- Design user-friendly fallback UIs to display when errors occur, keeping users informed without breaking the app.
+
+# Key Conventions
+
+- Optimize React renders.
+- Optimize Web Vitals (LCP, CLS, FID).
+
+# Documentation
+
+- Use JSDoc for documentation
+- Document all public functions, classes, methods, and interfaces
+- Add examples when appropriate
+- Use complete sentences with proper punctuation
+- Keep descriptions clear and concise
+- Use proper markdown formatting
+- Use proper code blocks
+- Use proper links
+- Use proper headings
+- Use proper lists
+
+# Important
+
+- Repeat the most important instructions in the beginning of the response.
+- If you are unsure of something, ask for clarification.
+
+# Comments
+
+- Make sure to Always add comments to the code.
+- Do not delete existing comments unless they are no longer needed.
+- Use comments to explain why behind the code in more complex functions.
