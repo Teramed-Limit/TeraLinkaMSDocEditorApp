@@ -1,0 +1,30 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- 柔和的底色 -->
+  <circle cx="32" cy="32" r="30" fill="#FFF5F5" />
+  
+  <!-- 主醫療十字（立體繃帶風格） -->
+  <!-- 垂直繃帶 -->
+  <rect x="26" y="10" width="12" height="44" rx="3" fill="#FFEBEE" stroke="#E57373" stroke-width="1.5"/>
+  <rect x="26" y="10" width="12" height="22" rx="3" fill="#F8BBD0"/>
+  
+  <!-- 水平繃帶 -->
+  <rect x="10" y="26" width="44" height="12" rx="3" fill="#FFEBEE" stroke="#E57373" stroke-width="1.5"/>
+  <rect x="10" y="26" width="22" height="12" rx="3" fill="#F8BBD0"/>
+  
+  <!-- 繃帶縫合細節 -->
+  <circle cx="32" cy="18" r="2" fill="#E57373"/>
+  <circle cx="32" cy="46" r="2" fill="#E57373"/>
+  <circle cx="18" cy="32" r="2" fill="#E57373"/>
+  <circle cx="46" cy="32" r="2" fill="#E57373"/>
+  
+  <!-- 中央醫療十字強化 -->
+  <rect x="30" y="14" width="4" height="36" fill="#D32F2F"/>
+  <rect x="14" y="30" width="36" height="4" fill="#D32F2F"/>
+  
+  <!-- 細微科技感（低調呈現） -->
+  <path d="M20 32 L44 32 M32 20 L32 44" 
+        stroke="#4FC3F7" 
+        stroke-width="1" 
+        stroke-dasharray="2,2" 
+        opacity="0.6"/>
+</svg>

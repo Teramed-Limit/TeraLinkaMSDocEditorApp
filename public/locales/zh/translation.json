@@ -1,0 +1,181 @@
+{
+	"welcome": "歡迎使用我的應用程式",
+	"login": {
+		"welcome": "歡迎回來",
+		"welcomeMsg": "請登入您的帳號",
+		"userId": "帳號",
+		"password": "密碼",
+		"login": "登入"
+	},
+	"main": {
+		"changeLanguage": "切換語言",
+		"logout": "登出",
+		"home": "主頁面",
+		"settings": "設定"
+	},
+	"clinicalUnitList": {
+		"noUnitMsg": "沒有可用的臨床單位",
+		"unit": "臨床單位"
+	},
+	"patientEncounterQuery": {
+		"encounter": "院內",
+		"discharge": "出院",
+		"clinicalUnit": "病房",
+		"bed": "床位",
+		"transferInOutTime": "轉入/轉出時間",
+		"inOutHospitalTime": "入/出院時間",
+		"encounterNumber": "住院號碼",
+		"lifeTimeNumber": "病歷號碼",
+		"patientName": "病患姓名",
+		"gender": "性別",
+		"dateOfBirth": "出生日期",
+		"nationalId": "身分證字號",
+		"attendingPhysician": "主治醫師",
+		"view": "查看"
+	},
+	"setting": {
+		"tabAccount": "帳號控管",
+		"tabCodeList": "代碼表",
+		"tabReportGen": "報表產生器",
+		"tabDicomConfig": "Dicom設定",
+		"accountTable": {
+			"userId": "帳號",
+			"userName": "姓名",
+			"userRole": "權限"
+		}
+	},
+	"caseList": {
+		"caseList": "傷口列表",
+		"caseCard": {
+			"caseMoveMsg": "移動到其他案例",
+			"caseStatus": "狀態"
+		}
+	},
+	"caseMoveDialog": {
+		"confirm": "確認",
+		"cancel": "取消",
+		"warn": "警告",
+		"dialogTitle": "選擇要移動的案例",
+		"warnMsg": "您確定要移動到此選取案例嗎？此操作將會移動案例的所有相關資料。"
+	},
+	"caseAssessmentDatePage": {
+		"assessmentDate": "評估日期",
+		"compare": "比較"
+	},
+	"caseCompare": {
+		"enableSync": "滾輪同步已啟用",
+		"disableSync": "滾輪同步已停用",
+		"normalTime": "使用一般時間",
+		"shiftTime": "使用班別時間"
+	},
+	"caseManagement": {
+		"setCaseAsClosedSuccess": "案例已設為結案",
+		"setCaseAsClosedFailed": "設定結案失敗",
+		"setCaseAsOpenSuccess": "案例已設為未結案",
+		"setCaseAsOpenFailed": "設定未結案失敗",
+		"pleaseSelectAssessmentDate": "請選擇評估日期以查看傷口評估資料",
+		"pleaseSelectAssessmentImage": "請選擇評估日期以查看傷口圖片",
+		"openCase": "開案",
+		"closeCase": "結案",
+		"noCaseHistory": "無病例歷史記錄",
+		"pleaseWait": "請稍候片刻",
+		"setCaseAsClosed": "正在結案...",
+		"setCaseAsOpen": "正在開案..."
+	},
+	"caseRecordListLayout": {
+		"moveRecordToCaseSuccess": "記錄已移動到案例",
+		"moveRecordToCaseFailed": "移動記錄失敗",
+		"movingRecord": "正在移動記錄...",
+		"savingRecord": "正在儲存記錄...",
+		"pleaseWait": "請稍候片刻",
+		"selectObservationTime": "選擇觀察時間",
+		"observationTime": "觀察時間",
+		"cancel": "取消",
+		"confirm": "確認",
+		"createNewRecord": "建立新紀錄",
+		"noRecord": "尚未建立任何紀錄",
+		"noSelected": "未選擇",
+		"updateRecordSuccess": "記錄已更新",
+		"updateRecordFailed": "更新記錄失敗",
+		"createRecordSuccess": "記錄已建立",
+		"createRecordFailed": "建立記錄失敗"
+	},
+	"caseAssessmentImage": {
+		"updateImageSuccess": "影像已更新",
+		"updateImageFailed": "更新影像失敗",
+		"moveImageSuccess": "影像已移動",
+		"moveImageFailed": "移動影像失敗",
+		"updatingComment": "正在更新說明...",
+		"updateCommentSuccess": "影像說明已更新",
+		"updateCommentFailed": "更新影像說明失敗",
+		"comment": "影像說明",
+		"movingImage": "正在移動影像...",
+		"updatingImage": "正在更新影像標記...",
+		"pleaseWait": "請稍候片刻"
+	},
+	"caseRecordReport": {
+		"save": "儲存",
+		"preview": "預覽",
+		"loadDataFailed": "載入資料失敗",
+		"saveReportData": "儲存報告資料",
+		"updateReportData": "更新報告資料"
+	},
+	"previewReportPdf": {
+		"pagePadding": "頁面間距",
+		"imagePerRow": "每行圖片數量",
+		"imagePageBreak": "圖片分頁",
+		"download": "下載",
+		"sendToPACS": "上傳",
+		"preview": "預覽",
+		"uploadSuccess": "PDF文件已成功轉換為DICOM並上傳到PACS",
+		"uploadError": "PDF文件轉換為DICOM失敗"
+	},
+	"caseContainer": {
+		"caseMoveSuccess": "案例交換成功",
+		"caseMoveFailed": "案例交換失敗",
+		"movingCase": "正在移動案例...",
+		"pleaseWait": "請稍候片刻"
+	},
+	"canvasToolbar": {
+		"selectItem": "選取項目",
+		"shape": "形狀",
+		"fillColor": "填充顏色",
+		"borderColor": "描邊顏色",
+		"Circle": "圓形",
+		"Square": "方形",
+		"Arrow": "箭頭",
+		"Text": "文字"
+	},
+	"patientInfo": {
+		"lifeTimeNumber": "病歷號碼",
+		"encounterNumber": "住院號碼",
+		"name": "姓名",
+		"gender": "性別",
+		"age": "年齡",
+		"clinicalUnit": "病房",
+		"bed": "床位",
+		"attendingPhysician": "主治醫師"
+	},
+	"dicomSettings": {
+		"echoSuccess": "連線測試已完成",
+		"echoError": "連線測試執行失敗",
+		"pacsServerAddress": "PACS伺服器位址",
+		"pacsServerPort": "PACS伺服器連接埠",
+		"pacsServerAETitle": "PACS伺服器AETitle",
+		"localAETitle": "本地AETitle",
+		"title": "上傳設定",
+		"echo": "Echo"
+	},
+	"defaultSuccessMessage": "操作成功",
+	"defaultErrorMessage": "操作失敗",
+	"button": {
+		"cancel": "取消",
+		"confirm": "確認",
+		"save": "儲存",
+		"preview": "預覽"
+	},
+	"sex": {
+		"male": "男",
+		"female": "女"
+	}
+}

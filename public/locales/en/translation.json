@@ -1,0 +1,181 @@
+{
+	"welcome": "Welcome to my app",
+	"login": {
+		"welcome": "Welcome back",
+		"welcomeMsg": "Please login to your account",
+		"userId": "User ID",
+		"password": "Password",
+		"login": "Login"
+	},
+	"main": {
+		"changeLanguage": "Change Language",
+		"logout": "Logout",
+		"home": "Home",
+		"settings": "Settings"
+	},
+	"clinicalUnitList": {
+		"noUnitMsg": "No clinical units available",
+		"unit": "Unit"
+	},
+	"patientEncounterQuery": {
+		"encounter": "Encounter",
+		"discharge": "Discharge",
+		"clinicalUnit": "Ward",
+		"bed": "Bed",
+		"transferInOutTime": "Transfer In/Out Time",
+		"inOutHospitalTime": "Admission/Discharge Time",
+		"encounterNumber": "Encounter Number",
+		"lifeTimeNumber": "LifeTime Number",
+		"patientName": "Patient Name",
+		"gender": "Gender",
+		"dateOfBirth": "Date of Birth",
+		"nationalId": "National ID",
+		"attendingPhysician": "Attending Phy.",
+		"view": "View"
+	},
+	"setting": {
+		"tabAccount": "Account",
+		"tabCodeList": "Code List",
+		"tabReportGen": "Report Gen.",
+		"tabDicomConfig": "Dicom Config",
+		"accountTable": {
+			"userId": "User Id ",
+			"userName": "User Name",
+			"userRole": "Role"
+		}
+	},
+	"caseList": {
+		"caseList": "Cases",
+		"caseCard": {
+			"caseMoveMsg": "Move to another case",
+			"caseStatus": "Status"
+		}
+	},
+	"caseMoveDialog": {
+		"confirm": "Confirm",
+		"cancel": "Cancel",
+		"warn": "Warn",
+		"dialogTitle": "Select the case to move to",
+		"warnMsg": "Are you sure you want to move to this selection case? This operation will move all related materials of the case."
+	},
+	"caseAssessmentDatePage": {
+		"assessmentDate": "Assessment Date",
+		"compare": "Compare"
+	},
+	"caseAssessmentImage": {
+		"updateImageSuccess": "Image is updated",
+		"updateImageFailed": "Update image failed",
+		"moveImageSuccess": "Image is moved",
+		"moveImageFailed": "Move image failed",
+		"updateCommentSuccess": "update comment success",
+		"updateCommentFailed": "Update comment failed",
+		"comment": "Image Comment",
+		"movingImage": "Moving image...",
+		"updatingComment": "Updating comment...",
+		"updatingImage": "Updating image marker...",
+		"pleaseWait": "Please wait a moment"
+	},
+	"caseCompare": {
+		"enableSync": "Enable scroll sync",
+		"disableSync": "Disable scroll sync",
+		"normalTime": "Normal Time",
+		"shiftTime": "Shift Time"
+	},
+	"caseManagement": {
+		"setCaseAsClosedSuccess": "Case is set as closed",
+		"setCaseAsClosedFailed": "Set closed failed",
+		"setCaseAsOpenSuccess": "Case is set as open",
+		"setCaseAsOpenFailed": "Set open failed",
+		"pleaseSelectAssessmentDate": "Please select assessment date to view wound assessment data",
+		"pleaseSelectAssessmentImage": "Please select assessment date to view wound assessment image",
+		"openCase": "Open Case",
+		"closeCase": "Close Case",
+		"noCaseHistory": "No case history",
+		"pleaseWait": "Please wait a moment",
+		"setCaseAsClosed": "Set case as closed",
+		"setCaseAsOpen": "Set case as open"
+	},
+	"caseRecordListLayout": {
+		"moveRecordToCaseSuccess": "Record is moved to case",
+		"moveRecordToCaseFailed": "Move record failed",
+		"movingRecord": "Moving record...",
+		"savingRecord": "Saving record...",
+		"pleaseWait": "Please wait a moment",
+		"selectObservationTime": "Select observation time",
+		"observationTime": "Observation Time",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"createNewRecord": "Create new record",
+		"noRecord": "No record",
+		"noSelected": "No selected",
+		"updateRecordSuccess": "Record is updated",
+		"updateRecordFailed": "Update record failed",
+		"createRecordSuccess": "Record is created",
+		"createRecordFailed": "Create record failed"
+	},
+	"caseRecordReport": {
+		"save": "Save",
+		"preview": "Preview",
+		"loadDataFailed": "Load data failed",
+		"saveReportData": "Save report data",
+		"updateReportData": "Update report data"
+	},
+	"previewReportPdf": {
+		"pagePadding": "Page Padding",
+		"imagePerRow": "Image per row",
+		"imagePageBreak": "Image page break",
+		"download": "Download",
+		"sendToPACS": "Upload",
+		"preview": "Preview",
+		"uploadSuccess": "The PDF file has been successfully converted to DICOM and uploaded to PACS",
+		"uploadError": "PDF upload to DICOM failed"
+	},
+	"caseContainer": {
+		"caseMoveSuccess": "Case is moved",
+		"caseMoveFailed": "Move case failed",
+		"movingCase": "Moving case...",
+		"pleaseWait": "Please wait a moment"
+	},
+	"canvasToolbar": {
+		"selectItem": "Select item",
+		"shape": "Shape",
+		"fillColor": "Fill color",
+		"borderColor": "Border color",
+		"Circle": "Circle",
+		"Square": "Square",
+		"Arrow": "Arrow",
+		"Text": "Text"
+	},
+	"patientInfo": {
+		"lifeTimeNumber": "LifeTime Number",
+		"encounterNumber": "Encounter Number",
+		"name": "Name",
+		"gender": "Sex",
+		"age": "Age",
+		"clinicalUnit": "Unit",
+		"bed": "Bed",
+		"attendingPhysician": "Attending Phy."
+	},
+	"dicomSettings": {
+		"echoSuccess": "Echo successful",
+		"echoError": "Echo failed",
+		"pacsServerAddress": "IP Address",
+		"pacsServerPort": "Port",
+		"pacsServerAETitle": "Server AE Title",
+		"localAETitle": "Local AE Title",
+		"title": "PACS Config",
+		"echo": "Echo"
+	},
+	"defaultSuccessMessage": "Operation successful",
+	"defaultErrorMessage": "Operation failed",
+	"button": {
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"save": "Save",
+		"preview": "Preview"
+	},
+	"sex": {
+		"male": "Male",
+		"female": "Female"
+	}
+}
