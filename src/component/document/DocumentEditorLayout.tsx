@@ -11,7 +11,6 @@ interface DocumentEditorLayoutProps {
 	isError: boolean;
 	documentConfig?: DocumentEditorConfig | null;
 	error: string | null;
-	token: string;
 	handleLoadComponentError: DocumentErrorHandler;
 	handleEvent: DocumentEventHandler;
 	handleBack: () => void;
@@ -28,7 +27,6 @@ export function DocumentEditorLayout({
 	isError,
 	documentConfig,
 	error,
-	token,
 	handleLoadComponentError,
 	handleEvent,
 	handleBack,
@@ -106,7 +104,6 @@ export function DocumentEditorLayout({
 
 			<BaseDocumentEditor
 				error={error}
-				token={token}
 				documentConfig={documentConfig}
 				handleLoadComponentError={handleLoadComponentError}
 				handleEvent={handleEvent}

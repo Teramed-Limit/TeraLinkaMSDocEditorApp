@@ -43,10 +43,8 @@ function DocumentSelectTemplateEditorPage() {
 		isError,
 	} = useDocumentConfigQuery(id as string, 'edit', selectedTemplate as string, forceSwitchTemplate);
 
-	const { error, token, handleLoadComponentError, handleEvent } = useDocumentEditor({
-		documentConfig,
+	const { error, handleLoadComponentError, handleEvent } = useDocumentEditor({
 		id: selectedTemplate,
-		JWT_SECRET: globalStore.JWT_SECRET,
 	});
 
 	/**
@@ -147,7 +145,6 @@ function DocumentSelectTemplateEditorPage() {
 				isError={isError}
 				documentConfig={documentConfig}
 				error={error}
-				token={token}
 				handleLoadComponentError={handleLoadComponentError}
 				handleEvent={handleEvent}
 				handleBack={handleBack}

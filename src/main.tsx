@@ -18,7 +18,6 @@ export const fetchAppConfig = async (): Promise<void> => {
 	try {
 		const response = await axios.get('/config.json');
 		const environment = response.data;
-		globalStore.JWT_SECRET = environment.JWT_SECRET;
 		globalStore.IP_ADDRESS = environment.IP_ADDRESS;
 	} catch (error) {
 		console.error('Error fetching config:', error);

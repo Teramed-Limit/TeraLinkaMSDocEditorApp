@@ -8,7 +8,6 @@ import { DocumentEditorConfig } from '../../types/document';
 
 interface BaseDocumentEditorProps {
 	error: string | null;
-	token: string;
 	documentConfig: DocumentEditorConfig;
 	handleLoadComponentError: (errorCode: number, errorDescription: string) => void;
 	handleEvent: (eventName: string, e: any) => void;
@@ -17,7 +16,6 @@ interface BaseDocumentEditorProps {
 
 export function BaseDocumentEditor({
 	error,
-	token,
 	documentConfig,
 	handleLoadComponentError,
 	handleEvent,
@@ -25,7 +23,7 @@ export function BaseDocumentEditor({
 }: BaseDocumentEditorProps) {
 	// 初始化 SignalR 服務
 	useEffect(() => {
-		if (!token || !documentConfig) return;
+		if (!documentConfig) return;
 
 		const signalRService = SignalRService.getInstance();
 
@@ -46,7 +44,7 @@ export function BaseDocumentEditor({
 		return () => {
 			signalRService.offSaveStatus(handleSaveStatus);
 		};
-	}, [documentConfig, documentConfig.document?.docId, onSaveStatusChange, token]);
+	}, [documentConfig, documentConfig.document?.docId, onSaveStatusChange]);
 
 	return (
 		<Box sx={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -57,14 +55,11 @@ export function BaseDocumentEditor({
 			)}
 
 			<Box sx={{ flex: 1, p: 0, m: 0 }}>
-				{token && documentConfig && (
+				{documentConfig && (
 					<DocumentEditor
 						id="docxEditor"
 						documentServerUrl="http://localhost"
-						config={{
-							...documentConfig,
-							token,
-						}}
+						config={{ ...documentConfig }}
 						// 添加事件處理程序
 						onLoadComponentError={handleLoadComponentError}
 						events_onAppReady={(e) => handleEvent('onAppReady', e)}

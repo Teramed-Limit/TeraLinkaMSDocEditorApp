@@ -21,11 +21,7 @@ function DocumentEditorPage() {
 	// 查詢文檔數據
 	const { data: documentConfig, isLoading, isError } = useDocumentConfigQuery(id as string, mode as string);
 
-	const { error, token, handleLoadComponentError, handleEvent } = useDocumentEditor({
-		documentConfig,
-		id,
-		JWT_SECRET: globalStore.JWT_SECRET,
-	});
+	const { error, handleLoadComponentError, handleEvent } = useDocumentEditor({ id });
 
 	/**
 	 * 返回文檔列表
@@ -47,7 +43,6 @@ function DocumentEditorPage() {
 			isError={isError}
 			documentConfig={documentConfig}
 			error={error}
-			token={token}
 			handleLoadComponentError={handleLoadComponentError}
 			handleEvent={handleEvent}
 			handleBack={handleBack}
