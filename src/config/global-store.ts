@@ -2,4 +2,5 @@
 export const globalStore = {
 	setSnackbar: null as any,
 	IP_ADDRESS: null as string | null,
+	SIGNALR_ADDRESS: null as string | null,
 };

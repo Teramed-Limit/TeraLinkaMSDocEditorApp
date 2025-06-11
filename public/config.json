@@ -1,3 +1,4 @@
 {
-	"IP_ADDRESS": "http://localhost:5292/api"
+	"IP_ADDRESS": "https://localhost:7144/api",
+	"SIGNALR_ADDRESS": "https://localhost:7144/documentHub"
 }

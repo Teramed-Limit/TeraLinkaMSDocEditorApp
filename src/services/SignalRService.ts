@@ -1,6 +1,8 @@
 import * as signalR from '@microsoft/signalr';
 import { HubConnectionState } from '@microsoft/signalr';
 
+import { globalStore } from '../config/global-store';
+
 class SignalRService {
 	private connection: signalR.HubConnection;
 	private static instance: SignalRService;
@@ -8,7 +10,7 @@ class SignalRService {
 
 	private constructor() {
 		this.connection = new signalR.HubConnectionBuilder()
-			.withUrl('http://localhost:5292/documentHub')
+			.withUrl(globalStore.SIGNALR_ADDRESS ?? '')
 			.withAutomaticReconnect()
 			.build();
 	}

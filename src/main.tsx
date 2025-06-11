@@ -19,6 +19,7 @@ export const fetchAppConfig = async (): Promise<void> => {
 		const response = await axios.get('/config.json');
 		const environment = response.data;
 		globalStore.IP_ADDRESS = environment.IP_ADDRESS;
+		globalStore.SIGNALR_ADDRESS = environment.SIGNALR_ADDRESS;
 	} catch (error) {
 		console.error('Error fetching config:', error);
 	}
